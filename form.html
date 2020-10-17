@@ -5,5 +5,44 @@
     </head>
     <body>
         <h1>Create New Task</h1>
+        <form>
+            <p>
+                <label>Title</label><br>
+                <input type="text" placeholder="Enter Task name">
+            </p>
+
+            <p>
+                <label>Description</label><br>
+                <textarea rows="5" cols="22" placeholder="Enter Task Description"></textarea>
+            </p>
+
+            <p>
+                <label>Category</label><br>
+                <input type="text" placeholder="Enter Category">
+            </p>
+
+            <p>
+                <label>Priority Level</label><br>
+                <select>
+                    <option>Select an Item</option>
+                    <option>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Progress Level</label><br>
+                <select>
+                    <option>Select an Item</option>
+                    <option>Pending</option>
+                    <option>Started</option>
+                    <option>Completed</option>
+                </select>
+            </p>
+
+            <button type="submit">Submit</button>
+
+        </form>
     </body>
 </html>
